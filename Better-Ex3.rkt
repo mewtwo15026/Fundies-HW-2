@@ -4,6 +4,18 @@
 (require 2htdp/image)
 (require 2htdp/universe)
 
+#| Exercise 3
+A Note: 
+ The original P Set implied we should develop the ball structure 
+ to contain the structs ball-position and ball-velocity. We did 
+ so originally and though it worked it made us sad. Since this
+ nation was founded on the idea that the "pursuit of happiness"
+ is our unalienable right, we rewrote the ball struct to contain
+ all the position and velocity and removed the other structs.
+ We humbly request you don't dock too many points for this, if not
+ for us, for the United States of America. 
+ The longer version is available if you wish. 
+|#
 
 (define-struct ball (x y speed direction))
 ;; A Ball is a structure:
