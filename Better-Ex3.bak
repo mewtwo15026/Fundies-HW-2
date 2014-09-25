@@ -96,7 +96,7 @@
        (ball-x a-ball) (ball-y a-ball) 
        (ball-speed a-ball) 'stp) ]))
 
-;; Ball -> Image
+;; Ball -> Ball
 ;; Runs the world based on main
 (define (main world0)
   (big-bang world0
